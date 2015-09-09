@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:testview="http://schemas.android.com/apk/res/com.example.testone001.loning"
+    android:id="@+id/menu_sliding_fragment"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent" >
+
+    <com.example.testone034.myview.CustomViewT
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        testview:textColor="@android:color/holo_green_dark"
+        testview:textSize="14sp" />
+
+</FrameLayout>

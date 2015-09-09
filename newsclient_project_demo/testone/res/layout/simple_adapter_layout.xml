@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:padding="10dp">
+	
+    <ImageView android:id="@+id/simple_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="8dp"
+        android:background="@drawable/simple1"
+        />
+    
+    
+    <TextView
+        android:id="@+id/simple_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/simple_image"
+        android:layout_marginTop="20dp" 
+        android:layout_marginLeft="10dp"
+    	android:textSize="12sp"
+    	android:text="哈萨克老大死了"
+    	    />
+	
+    <TextView   
+        android:id="@+id/simple_below_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/simple_image" 
+        android:layout_below="@id/simple_text"
+        android:layout_marginTop="10dp"
+        android:layout_alignLeft="@id/simple_text"
+    	android:textSize="10sp"
+    	android:text="哈萨克老大死了十大该卡的时刻"
+    	    />
+</RelativeLayout>

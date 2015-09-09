@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="lanse">#05C0AF</color>
+    <color name="bung">#EDEDED</color>
+	<color name="title">#2BA399</color>
+	<color name="filebase">#AAA798</color>
+	<color name="kugou_background">#3096FA</color>
+	<color name="wedding_background">#89041A</color>
+	<color name="lisview_json_background">#F4F0F4</color>
+	
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="sliding_offset">200px</dimen>
+    <dimen name="sliding_weith">50px</dimen>
+</resources>

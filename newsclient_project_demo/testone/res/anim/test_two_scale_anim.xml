@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <scale
+        android:duration="1000"
+        android:fillAfter="false"
+        android:fromXScale="0.0"
+        android:fromYScale="0.0"
+        android:interpolator="@android:anim/accelerate_interpolator"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:toXScale="2.5"
+        android:toYScale="2.5" />
+    <!--scale:缩放动画 
+		android:interpolator为动画制定一个容器，一共有3中容器：
+			accelerate_decelerate_interpolator  加速-减速 动画插入器
+            accelerate_interpolator         加速-动画插入器
+           	decelerate_interpolator         减速- 动画插入器		android:duration：动画的持续时间，以毫秒为单位，
+		android:fillAfter：该动画转化在动画结束后是否被应用，有true和false两种选择；	
+		
+		android:fromXScale：属性为动画起始时 X坐标上的伸缩尺寸
+		android:toXScale   属性为动画结束时 X坐标上的伸缩尺寸 
+		android:fromYScale：属性为动画起始时 Y坐标上的伸缩尺寸
+		android:toYScale   属性为动画结束时 Y坐标上的伸缩尺寸 
+		说明: 以上四种属性值    
+				0.0表示收缩到没有 
+				1.0表示正常无伸缩     
+				值小于1.0表示收缩  
+				值大于1.0表示放大
+		android:pivotX：属性为动画相对于物件的X坐标的开始位置
+		android:pivotY：属性为动画相对于物件的Y坐标的开始位置
+		说明:
+                   	 以上两个属性值 从0%-100%中取值
+                    50%为物件的X或Y方向坐标上的中点位置
+    -->
+    <translate
+        android:duration="6000"
+        android:fromXDelta="0"
+        android:fromYDelta="0"
+        android:toXDelta="150"
+        android:toYDelta="300"/>
+</set>

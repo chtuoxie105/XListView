@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CustomViewT">
+        <attr name="textColor" format="color" />
+        <attr name="textSize" format="dimension" />
+    </declare-styleable>
+    <!-- 1. color：颜色值  <attr name = "textColor" format = "color" /> -->
+    <!-- 2.boolean：布尔值   <attr name = "focusable" format = "boolean" /> -->
+    <!-- 3.dimension：尺寸值。  <attr name = "layout_width" format = "dimension" /> -->
+	<!-- 4.float：浮点值。  <attr name = "fromAlpha" format = "float" /> -->
+    <!-- 4.float：浮点值。   <attr name = "toAlpha" format = "float" /> -->
+    <!--  integer：整型值。   <attr name = "frameDuration" format="integer" />-->
+
+</resources>

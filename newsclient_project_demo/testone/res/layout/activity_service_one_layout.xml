@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/service_bind_start_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bind启动Service" />
+        <EditText 
+        android:id="@+id/service_edit_contene"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="输入数字" />
+    
+    <Button
+        android:id="@+id/service_set_contene"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="传入计数" />
+    <Button
+        android:id="@+id/service_get_contene"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="打印当前的计数" />
+	<Switch android:id="@+id/service_switch"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textOn="打开计数线程"
+	    android:textOff="关闭计数线程"
+	    />
+
+</LinearLayout>

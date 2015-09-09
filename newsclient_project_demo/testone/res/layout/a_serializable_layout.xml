@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView  android:id="@+id/back_meassge_btu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:text="接收回传的数据"/>
+    <Button
+        android:id="@+id/string_btu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="普通参数传递" />
+	 <Button
+        android:id="@+id/bundle_btu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bundle参数传递2" />
+	  <Button
+        android:id="@+id/parcelable_btu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Parcelable参数传递3" />
+	   <Button
+        android:id="@+id/serializable_btu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Serializable参数传递4" />
+</LinearLayout>

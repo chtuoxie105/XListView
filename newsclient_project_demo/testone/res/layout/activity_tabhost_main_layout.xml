@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true" />
+
+        <RadioGroup
+            android:id="@+id/tab_radgrop_main"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal"
+            android:paddingBottom="3dp"
+            android:paddingTop="3dp" 
+            android:background="@color/lanse"
+          >
+
+            <RadioButton
+                android:id="@+id/tab_radgrop_main_groupon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawablePadding="3dp"
+                android:drawableTop="@drawable/select_radgrop_tab_groupon"
+                android:gravity="center"
+                android:text="团购" 
+               />
+
+            <RadioButton
+                android:id="@+id/tab_radgrop_main_merchant"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawablePadding="3dp"
+                android:drawableTop="@drawable/selcet_radgroup_tabb_merchant"
+                android:gravity="center"
+                android:text="商家" />
+
+            <RadioButton
+                android:id="@+id/tab_radgrop_main_mine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawablePadding="3dp"
+                android:drawableTop="@drawable/select_radgrop_tab_mine"
+                android:gravity="center"
+                android:text="我的" />
+
+            <RadioButton
+                android:id="@+id/tab_radgrop_main_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawablePadding="3dp"
+                android:drawableTop="@drawable/select_radgroup_tab_more"
+                android:gravity="center"
+                android:text="更多" />
+        </RadioGroup>
+
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/@android:id/tabs" />
+    </RelativeLayout>
+
+</TabHost>

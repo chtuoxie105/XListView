@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/main_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    
+    
+    <TextView
+        android:id="@+id/fram_pager_text_three"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/w03"
+        android:gravity="center_horizontal"
+        android:paddingTop="30dp"
+        android:text="通过透视聊天\n你甚至可以和朋友们\n面对面沟通"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/w02"
+        android:gravity="center_horizontal"
+        android:paddingTop="45dp"
+        android:text="按住就能说话\n聊天如此的简单轻松"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/fram_pager_text_one"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/w01"
+        android:gravity="center_horizontal"
+        android:paddingTop="55dp"
+        android:text="微信\n超过1亿人使用的手机应用"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="26sp" />
+	
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    	android:layout_marginTop="100dp"
+      
+        android:gravity="center"
+        android:orientation="horizontal" >
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/page_now" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/page" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/page" />
+    </LinearLayout>
+</FrameLayout>

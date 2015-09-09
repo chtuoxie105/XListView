@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- seekbar的背景设置 -->
+    <item android:id="@android:id/background">
+        <shape>
+            <corners android:radius="45dp" />
+
+            <gradient
+                android:endColor="@android:color/darker_gray"
+                android:startColor="@android:color/darker_gray" />
+        </shape>
+    </item>
+    <!-- seekbar的二级条设置 -->
+    <item android:id="@android:id/secondaryProgress">
+        <clip>
+            <shape>
+                <corners android:radius="45dp" />
+
+                <gradient
+                    android:endColor="@android:color/holo_blue_dark"
+                    android:startColor="@android:color/holo_blue_dark" />
+            </shape>
+        </clip>
+    </item>
+    <!-- seekbar的拖动效果设置 -->
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape>
+                <corners android:radius="45dp" />
+
+                <gradient
+                    android:centerColor="@color/lanse"
+                    android:endColor="@color/lanse"
+                    android:startColor="@color/lanse" />
+            </shape>
+        </clip>
+    </item>
+	
+     <item android:id="@android:id/progress">
+    
+            <shape>
+                <corners android:radius="45dp" />
+
+                <gradient
+                    android:centerColor="@color/lanse"
+                    android:endColor="@color/lanse"
+                    android:startColor="@color/lanse" />
+                <stroke />
+            </shape>
+  
+    </item>
+</layer-list>

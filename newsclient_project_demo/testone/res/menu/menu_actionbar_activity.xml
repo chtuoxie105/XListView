@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+	
+      <item
+        android:id="@+id/menu_actionbar_serach"
+        android:icon="@drawable/ic_search_green"
+        android:showAsAction="always|collapseActionView"
+        android:actionViewClass="android.widget.SearchView"
+        android:title="@string/actionbar_item_serach"/>
+    
+    <item
+        android:id="@+id/menu_actionbar_add"
+        android:icon="@drawable/ic_menu_deal_on"
+        android:showAsAction="always"
+        android:title="@string/actionbar_item_add"/>
+    <item
+        android:id="@+id/menu_actionbar_deletel"
+        android:icon="@drawable/ic_menu_more_on"
+        android:showAsAction="ifRoom"
+        android:title="@string/actionbar_item_delete"/>
+    <item
+        android:id="@+id/menu_actionbar_change"
+        android:icon="@drawable/ic_menu_user_on"
+        android:showAsAction="ifRoom"
+        android:title="@string/actionbar_item_change"/>
+    <item
+        android:id="@+id/menu_actionbar_updata"
+        android:icon="@drawable/ic_menu_poi_on"
+        android:showAsAction="ifRoom"
+        android:title="@string/actionbar_item_updata"/>
+
+</menu>

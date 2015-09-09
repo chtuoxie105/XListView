@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/animo_alpha_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="渐变动画xml" />
+
+        <Button
+            android:id="@+id/animo_scale_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="缩放动画xml" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/animo_translate_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="位移动画xml" />
+
+        <Button
+            android:id="@+id/animo_rotate_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="旋转动画xml" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/animo_test_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/m3" />
+
+</LinearLayout>

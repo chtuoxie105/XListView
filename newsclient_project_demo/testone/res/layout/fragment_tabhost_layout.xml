@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RadioGroup
+        android:id="@+id/fragment_tabhost_radiogroup"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/lanse"
+        android:padding="3dp"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/fragment_groupon"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawablePadding="3dp"
+             android:gravity="center"
+            android:drawableTop="@drawable/select_radgrop_tab_groupon"
+             android:paddingLeft="0dp"
+            android:text="团购" />
+
+        <RadioButton
+            android:id="@+id/fragment_merchant"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawablePadding="3dp"
+             android:gravity="center"
+               android:paddingLeft="0dp"
+            android:drawableTop="@drawable/selcet_radgroup_tabb_merchant"
+            android:text="商家" />
+
+        <RadioButton
+            android:id="@+id/fragment_mine"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+              android:paddingLeft="0dp"
+             android:gravity="center"
+            android:button="@null"
+            android:drawablePadding="3dp"
+            android:drawableTop="@drawable/select_radgrop_tab_mine"
+            android:text="我的" />
+
+        <RadioButton
+            android:id="@+id/fragment_more"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+             android:paddingLeft="0dp"
+             android:gravity="center"
+            android:button="@null"
+            android:drawablePadding="3dp"
+            android:drawableTop="@drawable/select_radgroup_tab_more"
+            android:text="更多" />
+    </RadioGroup>
+
+</LinearLayout>

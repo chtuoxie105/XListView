@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/activity_sqlite_usertext_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入用户名" />
+
+    <EditText
+        android:id="@+id/activity_sqlite_passwordtext_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入密码" />
+
+    <EditText
+        android:id="@+id/activity_sqlite_sextext_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入性别" />
+
+    <EditText
+        android:id="@+id/activity_sqlite_scoretext_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入成绩" />
+
+    <EditText
+        android:id="@+id/activity_sqlite_addresstext_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入地址" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/activity_sqlite_insert_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="增加数据" />
+
+        <Button
+            android:id="@+id/activity_sqlite_update_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="修改数据" />
+
+        <Button
+            android:id="@+id/activity_sqlite_delete_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="删除数据" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/activity_sqlite_query_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="查询数据query" />
+
+        <Button
+            android:id="@+id/activity_match__btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="对象传递查询数据" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/main_cursor_listview"
+            android:text="姓名" />
+
+        <TextView
+            style="@style/main_cursor_listview"
+            android:text="学号" />
+
+        <TextView
+            style="@style/main_cursor_listview"
+            android:text="性别" />
+
+        <TextView
+            style="@style/main_cursor_listview"
+            android:text="成绩" />
+
+        <TextView
+            style="@style/main_cursor_listview"
+            android:text="地址" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/activity_sqlite_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:padding="5dp">
+
+    <ImageView
+        android:id="@+id/gridview_img"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:background="@drawable/simple1" />
+
+    <TextView
+        android:layout_below="@id/gridview_img"
+        android:id="@+id/gridview_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_light"
+        android:gravity="center"
+        android:layout_alignLeft="@id/gridview_img"
+        android:layout_alignRight="@id/gridview_img"
+        android:textSize="18sp" 
+        android:text="绝地传说"/>
+
+</RelativeLayout>

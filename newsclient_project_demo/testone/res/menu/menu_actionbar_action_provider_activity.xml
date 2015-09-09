@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- 搜索的actionBar -->
+    <item
+        android:id="@+id/menu_actionbar_shareprovider_serach"
+        android:actionViewClass="android.widget.SearchView"
+        android:icon="@drawable/ic_search_green"
+        android:showAsAction="always|collapseActionView"
+        android:title="@string/actionbar_item_serach"/>
+    
+    <!-- z自定义的ActionProvider -->
+    <item
+        android:id="@+id/menu_actionbar_shareprovider_ziji"
+        android:actionProviderClass="com.example.testone029.actionbar.MyActionProvider"
+        android:icon="@drawable/ic_menu_deal_on"
+        android:showAsAction="ifRoom"
+        android:title="@string/actionbar_item_ActionProvider"/>
+    
+    <!-- actionBar添加按钮 -->
+    <item
+        android:id="@+id/menu_actionbar_shareprovider_add"
+        android:actionProviderClass="android.widget.ShareActionProvider"
+        android:icon="@drawable/ic_menu_deal_on"
+        android:showAsAction="always"
+        android:title="@string/actionbar_item_add"/>
+    
+    <!-- actionBar删除按钮 -->
+    <item
+        android:id="@+id/menu_actionbar_shareprovider_deletel"
+        android:icon="@drawable/ic_menu_more_on"
+        android:showAsAction="ifRoom"
+        android:title="@string/actionbar_item_delete"/>
+    
+    <!-- actionBar更改按钮 -->
+    <item
+        android:id="@+id/menu_actionbar_shareprovider_change"
+        android:icon="@drawable/ic_menu_user_on"
+        android:showAsAction="ifRoom"
+        android:title="@string/actionbar_item_change"/>
+    
+    <!-- actionBar查询按钮 -->
+    <item
+        android:id="@+id/menu_actionbar_shareprovider_updata"
+        android:icon="@drawable/ic_menu_poi_on"
+        android:showAsAction="ifRoom"
+        android:title="@string/actionbar_item_updata"/>
+
+</menu>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/get_json_match_stydy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:text="获得数据"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="200dp" >
+
+        <TextView
+            android:id="@+id/get_json_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+  
+  </ScrollView>
+    <Button
+        android:id="@+id/resolve_json_match"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+         android:text="分解数据"/>
+
+    <TextView
+        android:id="@+id/get_resolve_json_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">QQ登录界面</string>
+    <string name="hello_world">QQ登录界面</string>
+    <string name="actionbar_item_add">添加</string>
+	<string name="actionbar_item_delete">删除</string>
+	<string name="actionbar_item_updata">查询</string>
+	<string name="actionbar_item_change">更改</string>
+	<string name="actionbar_item_serach">搜索</string>
+	<string name="actionbar_item_ActionProvider">自定义的</string>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/file_out_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/file_out_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" />
+	
+    <Button android:id="@+id/file_out_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="添加图片"/>
+    <Button android:id="@+id/file_out_find_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="遍历文件"/>
+    
+</LinearLayout>

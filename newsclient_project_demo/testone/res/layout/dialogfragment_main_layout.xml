@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/dialog_main_btn_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="接收参数" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="显示数据" />
+
+    <TextView
+        android:id="@+id/dialog_main_text_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/dialog_main_show_dialog_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="显示自定义的dialogFragment" />
+
+</LinearLayout>
