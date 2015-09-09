@@ -1,0 +1,7 @@
+INDEX VERSION 1.127+E:\androids\newsclient_project\.metadata\.plugins\org.eclipse.jdt.core
+1419118069.index
+2589344737.index
+2894363117.index
+1392433303.index
+3094841281.index
+311052281.index
